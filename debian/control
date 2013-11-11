@@ -1,0 +1,30 @@
+Source: chronosync
+Priority: extra
+Maintainer: Alexander Afanasyev <alexander.afanasyev@ucla.edu>
+Build-Depends: debhelper (>= 8.0.0), 
+ python (>= 2.7.0),
+ pkg-config (>= 0.26),
+ ndnx-dev (>= 0.2~rc1),
+ ndn.cxx-dev,
+ libssl-dev (>=1.0.1), 
+ protobuf-compiler,
+ libboost-system1.48-dev (>= 1.48.0), libboost-test1.48-dev (>= 1.48.0),
+ libboost-iostreams1.48-dev (>= 1.48.0), libboost-filesystem1.48-dev (>= 1.48.0),
+ libboost-thread1.48-dev (>= 1.48.0), libboost-date-time1.48-dev (>= 1.48.0),
+ libboost-regex1.48-dev (>= 1.48.0), libboost-program-options1.48-dev (>= 1.48.0)
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://github.com/named-data/chronosync
+
+Package: chronosync-dev
+Section: libdevel
+Architecture: i386 amd64
+Depends: chronosync (= ${binary:Version}),
+ ndn.cxx-dev
+Description: sync library for multiuser realtime applications for NDN
+
+Package: chronosync
+Section: libs
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: sync library for multiuser realtime applications for NDN
