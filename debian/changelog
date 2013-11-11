@@ -1,3 +1,9 @@
+chronosync (0.2-1ppa2~precise1) precise; urgency=low
+
+  * Fixing dependency
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Sun, 10 Nov 2013 19:01:26 -0800
+
 chronosync (0.2-1ppa1~precise1) precise; urgency=low
 
   * Initial release
