@@ -1,3 +1,10 @@
+chronosync (0.2.1-1ppa1~1precise1) precise; urgency=low
+
+  [ Yingdi Yu ]
+  * Fixing the bug in issuing intro cert in the policy manager Fixing the conversion bug in intro-cert
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Tue, 12 Nov 2013 17:36:05 -0800
+
 chronosync (0.2-1ppa2~precise1) precise; urgency=low
 
   * Fixing dependency
